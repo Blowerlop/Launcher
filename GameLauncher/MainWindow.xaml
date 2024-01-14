@@ -1,0 +1,28 @@
+﻿<Window x:Class="GameLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tools="clr-namespace:GameLauncher.Tools"
+        mc:Ignorable="d"
+        Title="TBD Launcher" 
+        Height= "1080"
+        Width = "1920"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="NoResize">
+
+
+    <Border CornerRadius="100">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="/valorant-featured-2022-1200x675.jpg" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="Fill" Height="auto" Width="auto"/>
+            <Button x:Name="MainButton" Content="Download" VerticalAlignment="Bottom" Height="120" FontFamily="Georgia Pro Black" FontSize="72" Foreground="White" Grid.ColumnSpan="2" Background="{x:Null}"/>
+            <ProgressBar x:Name="ProgressBar" Height="32" VerticalAlignment="Bottom" ValueChanged="ProgressBar_ValueChanged"/>
+        </Grid>
+    </Border>
+
+</Window>

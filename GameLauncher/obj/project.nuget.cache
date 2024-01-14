@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "I9eVmHyrLv99aGTLNul4IvqJ65V9imVajKS9+Bb8Cktvf8v/3W1nUxmiElC5oCRVs8UX3Krwm0Jbf/8Bdpv4CA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chris\\Desktop\\GameLauncher\\GameLauncher\\GameLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chris\\.nuget\\packages\\blurrycontrols\\1.0.24\\blurrycontrols.1.0.24.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\octokit\\7.0.0\\octokit.7.0.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BlurryControls 1.0.24' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BlurryControls",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
