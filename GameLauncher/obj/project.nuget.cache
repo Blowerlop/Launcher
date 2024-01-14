@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I9eVmHyrLv99aGTLNul4IvqJ65V9imVajKS9+Bb8Cktvf8v/3W1nUxmiElC5oCRVs8UX3Krwm0Jbf/8Bdpv4CA==",
+  "dgSpecHash": "aOXWt3VBWBbjXEcB3aD/GKGWdOkzlGuXd1QiIucJ04gt7/+yb1Zq6RlMOs276veaydoJVe4FxililvxxLBVRbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\Desktop\\GameLauncher\\GameLauncher\\GameLauncher.csproj",
+  "projectFilePath": "C:\\Users\\chris\\Desktop\\Launcher\\GameLauncher\\GameLauncher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\blurrycontrols\\1.0.24\\blurrycontrols.1.0.24.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
