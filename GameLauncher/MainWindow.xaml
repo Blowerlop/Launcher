@@ -21,7 +21,7 @@
             </Grid.ColumnDefinitions>
             <Image Source="/valorant-featured-2022-1200x675.jpg" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="Fill" Height="auto" Width="auto"/>
             <Button x:Name="MainButton" Content="Download" VerticalAlignment="Bottom" Height="120" FontFamily="Georgia Pro Black" FontSize="72" Foreground="White" Grid.ColumnSpan="2" Background="{x:Null}"/>
-            <ProgressBar x:Name="ProgressBar" Height="32" VerticalAlignment="Bottom" ValueChanged="ProgressBar_ValueChanged"/>
+            <ProgressBar x:Name="ProgressBar" Height="32" VerticalAlignment="Bottom"/>
         </Grid>
     </Border>
 
